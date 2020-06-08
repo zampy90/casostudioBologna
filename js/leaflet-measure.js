@@ -7078,8 +7078,8 @@ L.Control.Measure = L.Control.extend({
     primaryLengthUnit: 'feet',
     secondaryLengthUnit: 'miles',
     primaryAreaUnit: 'acres',
-    activeColor: '#ABE67E',     // base color for map features while actively measuring
-    completedColor: '#C8F2BE',  // base color for permenant features generated from completed measure
+    activeColor: 'red',     // base color for map features while actively measuring
+    completedColor: 'red',  // base color for permenant features generated from completed measure
     captureZIndex: 10000,       // z-index of the marker used to capture measure events
     popupOptions: {             // standard leaflet popup options http://leafletjs.com/reference.html#popup-options
       className: 'leaflet-measure-resultpopup',
