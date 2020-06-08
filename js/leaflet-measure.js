@@ -7504,8 +7504,8 @@ var Symbology = function (options) {
 };
 
 Symbology.DEFAULTS = {
-  activeColor: '#ABE67E',    // base color for map features while actively measuring
-  completedColor: '#C8F2BE'  // base color for permenant features generated from completed measure
+  activeColor: '#red',    // base color for map features while actively measuring
+  completedColor: 'red'  // base color for permenant features generated from completed measure
 };
 
 _.extend(Symbology.prototype, {
