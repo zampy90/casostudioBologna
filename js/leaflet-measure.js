@@ -7504,7 +7504,7 @@ var Symbology = function (options) {
 };
 
 Symbology.DEFAULTS = {
-  activeColor: '#red',    // base color for map features while actively measuring
+  activeColor: 'red',    // base color for map features while actively measuring
   completedColor: 'red'  // base color for permenant features generated from completed measure
 };
 
